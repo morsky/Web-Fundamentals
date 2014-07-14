@@ -1,0 +1,134 @@
+body,
+section,
+header,
+h1,
+h2,
+h3,
+fieldset,
+legend,
+input,
+p,
+select,
+option,
+textarea,
+form {
+  padding: 0;
+  margin: 0;
+}
+section {
+  background-color: #336799;
+  color: white;
+  font-family: Tahoma, Arial, sans-serif;
+  margin: 10px;
+  width: 840px;
+  height: 605px;
+}
+section header {
+  text-align: center;
+}
+section header h1 {
+  font-size: 8.5em;
+  position: relative;
+  top: -20px;
+}
+section header h1 span {
+  font-size: .15em;
+  position: relative;
+  bottom: 2px;
+  left: 7px;
+}
+section header h2 {
+  font-size: 2.4em;
+  position: relative;
+  top: -10px;
+}
+section header h3 {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+section form {
+  position: relative;
+  height: 400px;
+}
+section form .left {
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 0 10px;
+  position: absolute;
+  margin: 0px 30px 15px 15px;
+  width: 290px;
+  height: 260px;
+}
+section form .left legend {
+  text-align: center;
+}
+section form .left input {
+  border-radius: 5px;
+  padding: 5px 0;
+  margin: 5px 5px 5px 0;
+  width: 133px;
+}
+section form .left input[type="datetime"] {
+  display: block;
+  width: 220px;
+}
+section form .left input[type="radio"] {
+  width: 20px;
+}
+section form .left label {
+  display: inline;
+  font-size: .9em;
+}
+section form .right {
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 0 10px;
+  position: absolute;
+  left: 365px;
+  width: 435px;
+  height: 260px;
+}
+section form select {
+  border-radius: 5px;
+  padding: 5px 0;
+  margin: 5px 5px 5px 0;
+  width: 133px;
+}
+section form input {
+  border-radius: 5px;
+  padding: 5px 0;
+  margin: 5px 5px 5px 0;
+  width: 134px;
+}
+section form .smallBox {
+  width: 60px;
+}
+section form label {
+  font-size: .9em;
+  display: block;
+}
+section form textarea {
+  border-radius: 5px;
+  width: 430px;
+  height: 70px;
+}
+section form div {
+  position: absolute;
+  top: 275px;
+  left: 15px;
+}
+section form div .buttonLeft {
+  color: #376893;
+  font-size: 1.2em;
+  padding: 15px;
+  margin-right: 25px;
+  width: 318px;
+}
+section form div .buttonRight {
+  color: #376893;
+  font-size: 1.8em;
+  padding: 10px;
+  position: relative;
+  top: 3px;
+  width: 462px;
+}

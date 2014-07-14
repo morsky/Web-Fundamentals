@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flight Order</title>
+	<link rel="stylesheet" type="text/css" href="styles/2.FlightOrder.css">
+</head>
+<body>
+	<section>
+		<header>
+			<h1><em>FLIGHT ORDER</em></h1>
+		</header>
+		
+		<form method="get">
+			<div class="left">
+				<p><em>From</em></p>
+				<select name="fromCity">
+					<option value="enter a city" selected>enter a city</option>
+					<option value="london">London</option>
+					<option value="moscow">Moscow</option>
+					<option value="sofia">Sofia</option>
+				</select>
+
+				<p><em>Departure date</em></p>
+				<input type="date" name="departureDate" />
+
+				<p><em>Return date</em></p>
+				<input type="date" name="returnDate" />
+					
+				<div>
+					<p class=""><em>12+</em></p>
+					<input type="number" name="12+" />
+				</div>
+
+				<div>
+					<p><em>2-12</em></p>
+					<input type="number" name="2-12" />
+				</div>
+				
+				<div>
+					<p><em>0-2</em></p>		
+					<input type="number" name="0-2" />
+				</div>				
+				
+			</div>
+
+			<div class="right">
+				<p><em>To</em></p>			
+				<select name="toCity">
+					<option value="enter a city" selected>enter a city</option>
+					<option value="london">London</option>
+					<option value="moscow">Moscow</option>
+				<option value="sofia">Sofia</option>
+				</select>
+			
+				<div class="check">
+					<input type="checkbox" name="direct" id="direct" />
+					<label for="direct"><em>Prefer directs</em></label>
+				</div>
+				
+
+				<p><em>Time interval</em></p>			
+				<input class="timeBox" type="time" name="departureStart" />
+				<input class="timeBox" type="time" name="departureEnd" />
+
+				<p><em>Time interval</em></p>			
+				<input class="timeBox" type="time" name="returnStart" />
+				<input class="timeBox" type="time" name="returnEnd" />
+
+				<p><em>Choose class</em></p>			
+				<select name="class">
+					<option value="econimy">Economy</option>
+					<option value="business">Business</option>
+					<option value="firsClass">Firs Class</option>
+				</select>
+			</div>	
+
+			<input type="submit" value="Search" />	
+
+		</form>
+	</section>
+</body>
+</html>

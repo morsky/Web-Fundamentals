@@ -1,0 +1,95 @@
+body,
+main,
+header,
+h1,
+h2,
+section,
+p,
+img,
+aside,
+input {
+  padding: 0;
+  margin: 0;
+}
+#wrapper {
+  font-family: Arial, Times, sans-serif;
+  position: relative;
+  margin: 10px;
+  width: 630px;
+}
+#wrapper main header h1 {
+  color: #353164;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 20px 0 0 20px;
+}
+#wrapper main div {
+  display: inline-block;
+  width: 182px;
+  height: 210px;
+  padding: 5px;
+  border: 2px solid white;
+}
+#wrapper main div:hover {
+  border: 2px solid red;
+}
+#wrapper main div section {
+  border: 1px solid #CDECFF;
+  border-radius: 10px;
+  color: #333367;
+  padding: 10px 0 10px 5px;
+  width: 175px;
+  height: 190px;
+}
+#wrapper main div section header h2 {
+  font-size: 1.1em;
+}
+#wrapper main div section img {
+  margin: 10px 0;
+}
+#wrapper main div section .price {
+  background-color: #333367;
+  color: white;
+  border-radius: 10px 0 0 0;
+  text-align: center;
+  width: 90px;
+  padding: 5px;
+  position: relative;
+  left: 75px;
+  bottom: -5px;
+}
+#wrapper aside {
+  border: 1px solid #CDECFF;
+  background-color: #F8F8F8;
+  color: #2C356C;
+  width: 200px;
+  height: 495px;
+  position: relative;
+  left: 610px;
+  bottom: 480px;
+}
+#wrapper aside div {
+  display: block;
+  height: 70px;
+  margin-bottom: 10px;
+}
+#wrapper aside div p {
+  margin: 10px 0 5px 0;
+  text-align: center;
+}
+#wrapper aside div .locationLeft {
+  font-size: .9em;
+  text-align: left;
+}
+#wrapper aside div .locationRight {
+  font-size: .9em;
+  text-align: left;
+  text-align: right;
+  position: relative;
+  top: -25px;
+}
+#wrapper aside div input {
+  width: 200px;
+  position: relative;
+  bottom: 30px;
+}

@@ -1,0 +1,103 @@
+html,
+body,
+section,
+header,
+h1,
+p,
+div,
+form,
+input,
+label {
+  padding: 0;
+  margin: 0;
+}
+section {
+  background-color: #EAEAEA;
+  font-family: Tahoma, sans-serif;
+  margin: 8px;
+  width: 775px;
+  height: 410px;
+}
+section header {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+section header h1 {
+  color: #333566;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+section header p {
+  font-size: .9em;
+  color: #7F7F7F;
+}
+section form {
+  width: 352px;
+  padding: 0 10px;
+  float: left;
+}
+section form h2 {
+  color: #353666;
+  font-size: 1em;
+  font-weight: bold;
+}
+section form h2 span {
+  color: #686868;
+}
+section form input {
+  border: 1px solid #CCCCCC;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 325px;
+}
+section .left {
+  margin-left: 10px;
+}
+section .left input[type="submit"] {
+  border: 2px solid #353666;
+  background-color: #EAEAEA;
+  color: #353666;
+  font-size: 1.1em;
+  float: right;
+  padding: 5px 0;
+  margin-right: 5px;
+  width: 170px;
+}
+section .right {
+  background-color: #333367;
+  height: 298px;
+}
+section .right h2 {
+  color: white;
+}
+section .right #check {
+  display: inline;
+}
+section .right #check #rememberUser {
+  margin: 0;
+  width: 20px;
+}
+section .right input[type="submit"] {
+  border: 2px solid #FE9901;
+  background-color: #333367;
+  color: white;
+  font-size: 1.1em;
+  float: right;
+  padding: 5px 0;
+  margin-right: 5px;
+  width: 140px;
+}
+section .right label {
+  color: white;
+  font-size: 0.75em;
+}
+section .right a {
+  color: white;
+  font-size: .75em;
+  font-weight: bold;
+  display: block;
+  position: relative;
+  top: 25px;
+  left: 226px;
+}

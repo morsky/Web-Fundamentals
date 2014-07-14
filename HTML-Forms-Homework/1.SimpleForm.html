@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Form</title>
+	<link rel="stylesheet" type="text/css" href="styles/1.SimpleForm.css">
+</head>
+<body>
+	<section>
+		<header>
+			<h1>Enter the system</h1>
+			<p>It's necessary to log in Your account in order to sign a course.</p>
+		</header>		
+		
+		<form method="get" action="" class="left">
+			<h2><span>ARE YOU NEW?</span> REGISTERED</h2>
+
+			<input type="text" name="userName" placeholder="User name" pattern="^[a-zA-Z0-9_-]{3,15}$" />
+			
+			<input type="text" name="email" placeholder="Email" pattern="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$" />
+			
+			<input type="password" name="password" placeholder="Password" pattern="^[a-zA-Z0-9_-]{6,18}$" />
+			
+			<input type="password" name="confirmPassword" placeholder="Confirm Password" pattern="^[a-zA-Z0-9_-]{6,18}$" />
+			
+			<input type="submit" value="Register" />
+		</form>
+		
+		<form method="get" action="" class="right">
+			<h2>ALREADY A STUDENT? LOGIN</h2>
+			
+			<input type="text" name="userName" placeholder="User name" pattern="^[a-zA-Z0-9_-]{3,15}$" />			
+			
+			<input type="password" name="password" placeholder="Password" pattern="^[a-zA-Z0-9_-]{6,18}$" />
+			
+			<div id="check">
+				<input type="checkbox" name="rememberUser" id="rememberUser" />
+				<label for="rememberUser">Remember me?</label>
+			</div>	
+			
+			<input type="submit" value="Login" />
+			
+			<a href="#">Forgot Password</a>
+		</form>	
+			
+	</section>
+</body>
+</html>

@@ -1,0 +1,166 @@
+body, section, header, h1, h2, h3, fieldset, legend, input, p, select, option, textarea, form {
+
+	padding: 0;
+	margin: 0;
+}
+
+section {
+
+	background-color: #336799;
+	color: white;
+	font-family: Tahoma, Arial, sans-serif;
+	margin: 10px;
+	width: 840px;
+	height: 605px;	
+
+	header {		
+		
+		text-align: center;
+
+		h1 {
+			font-size: 8.5em;
+			position: relative;
+			top: -20px;
+
+			span {
+
+				font-size: .15em;
+				position: relative;
+				bottom: 2px;
+				left: 7px;
+			}
+		}
+
+		h2 {
+			
+			font-size: 2.4em;
+			position: relative;
+			top: -10px;
+		}
+
+		h3 {
+
+			font-size: 1em;
+			margin-bottom: 20px;
+		}
+	}
+
+	form {
+
+		position: relative;
+		height: 400px;
+		
+		.left {
+			
+			font-weight: bold;
+			border-radius: 10px;
+			padding: 0 10px;
+			position: absolute;			
+			margin: 0px 30px 15px 15px;
+			width: 290px;
+			height: 260px;
+
+			legend {
+
+				text-align: center;				
+			}
+
+			input {
+
+				border-radius: 5px;
+				padding: 5px 0;
+				margin: 5px 5px 5px 0;
+				width: 133px;
+
+				&[type="datetime"] {
+					
+					display: block;
+					width: 220px;
+				}
+
+				&[type="radio"] {
+
+					width: 20px;
+				}
+			}
+
+			label {
+				
+				display: inline;
+				font-size: .9em;
+			}
+		}
+
+		.right {
+			
+			font-weight: bold;
+			border-radius: 10px;
+			padding: 0 10px;
+			position: absolute;
+			left: 365px;
+			width: 435px;
+			height: 260px;
+		}
+
+		select {
+			
+			border-radius: 5px;
+			padding: 5px 0;
+			margin: 5px 5px 5px 0;
+			width: 133px;
+		}
+
+		input {
+
+				border-radius: 5px;
+				padding: 5px 0;
+				margin: 5px 5px 5px 0;
+				width: 134px;
+
+		}
+
+		.smallBox {
+
+			width: 60px;
+		}
+
+		label {
+
+			font-size: .9em;
+			display: block;
+		}
+
+		textarea {
+
+			border-radius: 5px;
+			width: 430px;
+			height: 70px;
+		}
+
+		div {
+				
+			position: absolute;
+			top: 275px;
+			left: 15px;			
+
+			.buttonLeft {
+
+				color: #376893;
+				font-size: 1.2em;
+				padding: 15px;
+				margin-right: 25px;
+				width: 318px;
+			}
+
+			.buttonRight {
+				
+				color: #376893;
+				font-size: 1.8em;
+				padding: 10px;
+				position: relative;
+				top: 3px;
+				width: 462px;
+			}
+		}
+	}
+}

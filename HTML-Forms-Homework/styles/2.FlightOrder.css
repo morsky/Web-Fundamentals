@@ -1,0 +1,80 @@
+html,
+body,
+section,
+header,
+form,
+select,
+option,
+h1,
+p,
+div,
+form,
+input,
+label {
+  padding: 0;
+  margin: 0;
+}
+section {
+  background-color: #FFCCCB;
+  font-family: Tahoma, sans-serif;
+  margin: 10px 15px;
+  width: 540px;
+  height: 385px;
+}
+section header h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  padding-top: 15px;
+  text-align: center;
+}
+section form {
+  margin-bottom: 10px;
+}
+section form p,
+section form label {
+  font-size: .8em;
+  margin: 5px 0;
+}
+section form select {
+  font-size: 1.1em;
+  width: 255px;
+}
+section form input {
+  font-size: 1.1em;
+  width: 250px;
+}
+section form .left {
+  font-size: 1.1em;
+  float: left;
+  margin-left: 10px;
+  width: 255px;
+}
+section form .left select {
+  margin-bottom: 21px;
+}
+section form .left input[type="number"] {
+  width: 77px;
+}
+section form .left div {
+  display: inline-block;
+}
+section form .right {
+  font-size: 1.1em;
+  float: left;
+  margin-left: 10px;
+  width: 255px;
+}
+section form .right .check input {
+  width: 20px;
+}
+section form .right .timeBox {
+  width: 120px;
+}
+section form input[type="submit"] {
+  font-size: 1.3em;
+  float: right;
+  padding: 5px;
+  margin-top: 5px;
+  margin-right: 10px;
+  width: 255px;
+}
