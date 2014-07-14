@@ -1,0 +1,7 @@
+body {
+	background-color: #a6caf0;
+}
+
+.noTopAndBottomPadding {
+	margin: 0;
+}

@@ -1,0 +1,55 @@
+body,
+html,
+div,
+header,
+section,
+ul,
+li,
+span,
+p,
+pre {
+  padding: 0;
+  margin: 0;
+}
+#wrapper {
+  background: url('../Images/background.jpg') no-repeat;
+  height: 100%;
+  background-size: 100% 100%;
+  font-family: Calibri;
+}
+#wrapper header h1 {
+  font-size: 2em;
+  color: orange;
+}
+#wrapper section ul li {
+  color: orange;
+  font-size: 1.6em;
+  margin-left: 30px;
+  list-style-type: square;
+}
+#wrapper section ul li ul {
+  border: 1px solid white;
+  background-color: rgba(220, 220, 220, 0.3);
+  font-family: Consolas;
+  padding: 5px 5px;
+  margin: 10px 80px;
+}
+#wrapper section ul li ul li {
+  font-size: .7em;
+  color: #FFFFD2;
+  list-style-type: none;
+  margin-left: 0;
+}
+#wrapper section ul li ul pre {
+  font-family: Consolas;
+}
+#wrapper section ul li span {
+  color: white;
+}
+#wrapper footer {
+  color: white;
+  font-size: .8em;
+  text-align: right;
+  padding-right: 30px;
+  margin-top: 15px;
+}

@@ -1,0 +1,899 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"se",
+				"section"
+			],
+			[
+				"su",
+				"submit"
+			],
+			[
+				"as",
+				"asideBotom"
+			],
+			[
+				"asi",
+				"asideTop"
+			],
+			[
+				"h",
+				"h4	Tag"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"a",
+				"a	Tag"
+			],
+			[
+				"bo",
+				"body"
+			],
+			[
+				"na",
+				"navigation"
+			],
+			[
+				"fi",
+				"fixed"
+			],
+			[
+				"spa",
+				"space"
+			],
+			[
+				"sp",
+				"space"
+			],
+			[
+				"co",
+				"column"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"di",
+				"div"
+			],
+			[
+				"me",
+				"@media	@media ${1:screen} {\n	${0}\n}"
+			],
+			[
+				"o",
+				"outline"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"sc",
+				"scroll"
+			],
+			[
+				"wra",
+				"wrapper"
+			],
+			[
+				"te",
+				"te-a	text-emphasis: after;"
+			],
+			[
+				"fl",
+				"flex"
+			],
+			[
+				"ju",
+				"justify"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"an",
+				"and"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"Bo",
+				"border"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"i",
+				"iframe"
+			],
+			[
+				"bu",
+				"button"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"Ma",
+				"margin"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"vert",
+				"vertical-align"
+			],
+			[
+				"ta",
+				"tale"
+			],
+			[
+				"S",
+				"SketchRockwell"
+			],
+			[
+				"im",
+				"img"
+			],
+			[
+				"border-top",
+				"border-top-right-radius"
+			],
+			[
+				"border-to",
+				"border-top-left-radius"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"img-",
+				"border-image-outset"
+			],
+			[
+				"n",
+				"nth"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"lu",
+				"todaysLuck"
+			],
+			[
+				"s",
+				"src"
+			],
+			[
+				"l",
+				"length	(num)"
+			],
+			[
+				"wi",
+				"wishes"
+			],
+			[
+				"ra",
+				"random()"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"list-sty",
+				"list-style-type"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"url",
+				"url()"
+			],
+			[
+				"ul",
+				"url()"
+			],
+			[
+				"vla",
+				"vladoK"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"ur",
+				"url()"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"th",
+				"thirdBalloonInner"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"border-bot",
+				"border-bottom-left-radius"
+			],
+			[
+				"ri",
+				"rightTooth"
+			],
+			[
+				"rig",
+				"rightEyePupil"
+			],
+			[
+				"lef",
+				"leftEyePupil"
+			],
+			[
+				"la",
+				"lang"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"opt",
+				"option	Tag"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"fil",
+				"fillRect"
+			],
+			[
+				"ct",
+				"ctx"
+			],
+			[
+				"ca",
+				"canvas	Tag"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"fre",
+				"frameset"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"com",
+				"comment"
+			],
+			[
+				"fra",
+				"frameset"
+			],
+			[
+				"fr",
+				"frameset	Tag"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"fig",
+				"figcaption"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"em",
+				"embed	Tag"
+			],
+			[
+				"lo",
+				"locationLeft"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"ti",
+				"timeBox"
+			],
+			[
+				"wa",
+				"wrapper"
+			],
+			[
+				"ch",
+				"check"
+			],
+			[
+				"cle",
+				"clear"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"foa",
+				"float"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"flo",
+				"float"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"whi",
+				"white-space"
+			],
+			[
+				"al",
+				"alert"
+			],
+			[
+				"ele",
+				"elementID"
+			],
+			[
+				"Fun",
+				"function"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"nu",
+				"numOne"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"ine",
+				"innerTableTopButton"
+			],
+			[
+				"t",
+				"tbody	Tag"
+			],
+			[
+				"borderco",
+				"border-color"
+			],
+			[
+				"fou",
+				"fourthRowLeftBottom"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 372.0,
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Create Binary Package File"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"SideBa",
+				"View: Toggle Side Bar"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"search",
+				"Snippet: <?php foreach (…) … <?php endforeach ?>"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 362.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/homeworks/2. HTML5-Overview-Homework.docx",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-Адаптивен дизайн. Bootstrap-12481/Pr3_BootstrapBootCamp.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-Адаптивен дизайн. Bootstrap-12514/Homework-Responsive Design. Bootstrap/Bootstrap Boot Camp/css/bootstrap.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-Адаптивен дизайн. Bootstrap-12481/flowersHome.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-Адаптивен дизайн. Bootstrap-12514/Homework-Responsive Design. Bootstrap/Flowers’ Home/style.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-Адаптивен дизайн. Bootstrap-12514/Homework-Responsive Design. Bootstrap/Flowers’ Home/index.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-Адаптивен дизайн. Bootstrap-11807/Responsive-Design-Bootstrap HW/02-Flowers-Home.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-Адаптивен дизайн. Bootstrap-11807/Responsive-Design-Bootstrap HW/styles/styles-02.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/homeworks/Responsive-Design-Bootstrap-Homework/Problem-02/styles/styles-02.less",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-CSS тагове за позициониране-11520/CSS/04_Pritty_Website.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-CSS тагове за позициониране-12512/CSS Layout/5. PrettyResponsiveWebsite/index.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-CSS тагове за позициониране-12512/CSS Layout/5. PrettyResponsiveWebsite/styles.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Task01JauntyTextField/Task01JauntyTextField.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Task01JauntyTextField/styles/Task01JauntyTextField.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-CSS презентационни тагове-10714/TheJauntyTextField.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-CSS презентационни тагове-10714/CSS/StyleSheet1.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-CSS презентационни тагове-10714/CSS/StyleSheet.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/CSS-Homework-Overview/public_html/colorKitchen.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/CSS-Homework-Overview/public_html/css/colorkitchen.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-CSS основи-10507/Pr2/Pr2_ColorKitchen.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-Семантичен HTML, рамки, други тагове-10173/HTML-other-tags/2.KentтАЩs-Media-Profile.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-Семантичен HTML, рамки, други тагове-10173/HTML-other-tags/1.Refactor-HTML.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-Семантичен HTML, рамки, други тагове-10173/HTML-other-tags/BG-Judge.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-Семантичен HTML, рамки, други тагове-10173/HTML-other-tags/3.Magic-Car-Gallery.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-Семантичен HTML, рамки, други тагове-9338/01_Refactor-Webpage.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-Семантичен HTML, рамки, други тагове-9338/02_Kent’s Media Profile.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-Семантичен HTML, рамки, други тагове-9338/04_1_BGJUG WebPage.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-Семантичен HTML, рамки, други тагове-9338/04_2_BGJUG WebPage.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-Семантичен HTML, рамки, други тагове-9338/03_Magic Car Gallery.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-Семантичен HTML, рамки, други тагове-9229/Semantic-HTML-Frames-Other-Tags/03.MagicCarGallery.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-Семантичен HTML, рамки, други тагове-9229/Semantic-HTML-Frames-Other-Tags/04.BGJUGWebPage-Semantic.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-Семантичен HTML, рамки, други тагове-9229/Semantic-HTML-Frames-Other-Tags/04.BGJUGWebPage.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-Семантичен HTML, рамки, други тагове-9229/Semantic-HTML-Frames-Other-Tags/02.KentтАЩsMediaProfile.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-Семантичен HTML, рамки, други тагове-9229/Semantic-HTML-Frames-Other-Tags/01-Refactor-Webpage.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML форми и контроли-8565/Homework Forms/Problem01SimpleForm/style.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML форми и контроли-8565/Homework Forms/Problem01SimpleForm/index.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML форми и контроли-8565/Homework Forms/Problem02Flight Order/index.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML форми и контроли-8565/Homework Forms/Problem02Flight Order/style.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML форми и контроли-8565/Homework Forms/Problem03WordPress Theme/index.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML форми и контроли-8565/Homework Forms/Problem03WordPress Theme/style.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML форми и контроли-8565/Homework Forms/Problem04Fakebook Register Form/style.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML форми и контроли-8565/Homework Forms/Problem04Fakebook Register Form/index.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML форми и контроли-8565/Homework Forms/Problem05Laptop Choice/style.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML форми и контроли-8565/Homework Forms/Problem05Laptop Choice/index.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML форми и контроли-9923/HTML5-Forms/02_Flight_Order.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML форми и контроли-9923/HTML5-Forms/03_Word_Press_Theme.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML форми и контроли-9923/HTML5-Forms/04_Fake_Book.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML форми и контроли-9923/HTML5-Forms/05_Laptop_choice.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML форми и контроли-9923/HTML5-Forms/01.SimpleForm.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML форми и контроли-9732/4. HTML-Forms-Homework/04_Fakebook Register Form (incomplete).html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML форми и контроли-9732/4. HTML-Forms-Homework/03_WordPress Theme.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML форми и контроли-9732/4. HTML-Forms-Homework/02_Flight Order.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML форми и контроли-9732/4. HTML-Forms-Homework/01_Simple Form.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8699/HTML5-Tables/HTML5-Tables/styles/02.Styles.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8699/HTML5-Tables/HTML5-Tables/styles/03.Styles.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8699/HTML5-Tables/HTML5-Tables/styles/04.Styles.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8699/HTML5-Tables/HTML5-Tables/styles/05.Styles.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8699/HTML5-Tables/HTML5-Tables/styles/06.Styles.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8699/HTML5-Tables/HTML5-Tables/styles/07.Styles.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8699/HTML5-Tables/HTML5-Tables/01.SimpleTable.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8699/HTML5-Tables/HTML5-Tables/02.ExamResults.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8699/HTML5-Tables/HTML5-Tables/03.NestedTables.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8699/HTML5-Tables/HTML5-Tables/04.WebsiteHeader.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8699/HTML5-Tables/HTML5-Tables/05.LifeInSoftUni.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8699/HTML5-Tables/HTML5-Tables/06.LifeInSoftUniKeyboard.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8699/HTML5-Tables/HTML5-Tables/07.Calculator.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8318/WebsiteHeader.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8318/ExamResults.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8318/SimpleTable.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8318/NestedTables.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8318/LifeinSoftUni.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8497/Problem 1/simple-table.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8497/Problem 1/styles.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8497/Problem 2/exam-results.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8497/Problem 2/styles.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8497/Problem 3/nested-tables.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8497/Problem 3/styles.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8497/Problem 4/Website Header.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8497/Problem 4/styles.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8497/Problem 5/SoftuniLife.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8497/Problem 5/styles.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8497/Problem 6/Live in SoftUni Buttons.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML таблици-8497/Problem 6/styles.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML основи-8668/HTML5 Overview/Hello HTML/index.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML основи-8668/HTML5 Overview/HTML Lists/index.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML основи-8668/HTML5 Overview/Paragraphs and Images of Text/index.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML основи-8668/HTML5 Overview/PowerPoint Slide/index.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML основи-8668/HTML5 Overview/Runners Home/index.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML основи-8668/HTML5 Overview/User Profile Pages/index.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML основи-8571/01.HTMLBasics/hello.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML основи-8571/01.HTMLBasics/Friends.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML основи-8571/01.HTMLBasics/Home.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML основи-8571/01.HTMLBasics/list.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML основи-8571/01.HTMLBasics/paragraphs.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML основи-8571/01.HTMLBasics/Profile.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML основи-8571/01.HTMLBasics/runners.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML основи-8571/01.HTMLBasics/slide.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/checkHomeworks/Homework-HTML основи-8571.7z",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/exam/Problem-4-Responsive-Web-Site/styles.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/exam/Problem-4-Responsive-Web-Site/index.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/exam/Problem-4-Responsive-Web-Site/styles1.less",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/exam/Problem-3-Registration-Form/styles/Problem3–RegistrationForm.less",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/exam/Problem-3-Registration-Form/Problem3–RegistrationForm.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/homeworks/CSS-Presentation-Homework/styles/2.SoftUniHawaiiParty.less",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/exam/Problem-1-Projects-and-Groups/Problem1–ProjectsAndGroups.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/exam/Problem-2-Simple-Site/Problem2–SimpleSite.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/exam/Problem-2-Simple-Site/styles/Problem2–SimpleSite.less",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/exam/Problem-1-Projects-and-Groups/styles/Problem1–ProjectsAndGroups.less",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/exam/task1.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/homeworks/Responsive-Design-Bootstrap-Homework/Problem-03/03-Bootstrap-Boot-Camp.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/homeworks/Responsive-Design-Bootstrap-Homework/Problem-03/css/main-style.less",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/homeworks/Responsive-Design-Bootstrap-Homework/Problem-02/02-Flowers-Home.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/homeworks/Responsive-Design-Bootstrap-Homework/test.html",
+		"/D/My Documents/Skype Recieve Files/Vylu/HTML&CSS-Exam-Preparation-Second-Part/HTML&CSS-Exam-Preparation-Second-Part/03_Transformations.html",
+		"/D/My Documents/Skype Recieve Files/Vylu/HTML&CSS-Exam-Preparation-Second-Part/HTML&CSS-Exam-Preparation-Second-Part/styles/03_transformations.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/homeworks/Responsive-Design-Bootstrap-Homework/test.less",
+		"/D/My Documents/Skype Recieve Files/Vylu/HTML&CSS-Exam-Preparation-Second-Part/HTML&CSS-Exam-Preparation-Second-Part/styles/02_Post.css",
+		"/D/My Documents/Skype Recieve Files/Vylu/HTML&CSS-Exam-Preparation-Second-Part/HTML&CSS-Exam-Preparation-Second-Part/02_Post.html",
+		"/D/My Documents/Skype Recieve Files/Vylu/Exam-preparation/Exam-preparation/03_Contact-Form.html",
+		"/D/My Documents/Skype Recieve Files/Vylu/Exam-preparation/Exam-preparation/styles/03_Contact-Form.css",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/homeworks/CSS-Layout-Homework/styles/4and5.PrettyWebsite.less",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/homeworks/CSS-Layout-Homework/4and5.PrettyWebsite.html",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/homeworks/Responsive-Design-Bootstrap-Homework/Problem-01/styles/styles.less",
+		"/C/Documents and Settings/Morsky/Desktop/SoftUni/WebFundamentals/homeworks/Responsive-Design-Bootstrap-Homework/Problem-01/01-Unresponsive-Homework.html",
+		"/E/SoftUni/SoftUniFunZone/css/styles_v1.less",
+		"/E/SoftUni/SoftUniFunZone/styles_v3.less",
+		"/D/My Documents/Skype Recieve Files/Vylu/Exam_Prep/Exam_Prep/02_My-Blog.html",
+		"/D/My Documents/Visual Studio 2010/Projects/LESS-Homework/LESS-Homework/homeworkStyle.less"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";\n",
+			"opit",
+			";\n",
+			"column",
+			";\n",
+			"overflow",
+			";\n",
+			"		\n",
+			"100%",
+			"0%",
+			"#eaeaea",
+			"#dddddd",
+			"#eaeaea",
+			"0%",
+			"#dddddd",
+			"0%",
+			"@startPersentange",
+			"#dddddd",
+			"50px",
+			"fancybox-wrap",
+			"fancybox-wrap fancybox-desktop fancybox-type-image fancybox-opened",
+			"573px",
+			"573",
+			";\n",
+			"}\n",
+			"pre",
+			"%;\n",
+			";\n",
+			"block",
+			"display",
+			";\n",
+			"flag",
+			"placeholder",
+			";\n",
+			"palaceholder",
+			"'",
+			"460px",
+			"');\n"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"@to-pos",
+			"@from-pos",
+			"@endColor",
+			"@startColor",
+			"@endColor",
+			"@startPersentange",
+			"@startColor",
+			"@startPersentange",
+			"0%",
+			"@startColor",
+			"p",
+			"flagRight",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.52850886587,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"homeworks/2. HTML5-Overview-Homework.docx"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,10 @@
+section {
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 290px;
+	padding: 5px 10px;
+}
+
+p {
+	margin: 0;
+}

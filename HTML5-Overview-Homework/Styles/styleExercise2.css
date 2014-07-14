@@ -1,0 +1,36 @@
+#wrapper {
+	background-color: #C2C2C2;
+	border-radius: 10px;
+	width: 960px;
+	margin: 0 auto;
+	padding: 10px 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2, p:first-letter {
+	padding-left: 20px;
+}
+
+p {
+	text-align: justify;
+}
+
+img {
+	border: 10px solid #fff;
+	border-radius: 5px;
+	display: block;
+	margin: 0 auto;
+}
+
+.leftImageWithText {
+	float: left;
+	padding-right: 15px;
+}
+
+footer p  {
+	font-size: .8em;
+	text-align: center;
+}
