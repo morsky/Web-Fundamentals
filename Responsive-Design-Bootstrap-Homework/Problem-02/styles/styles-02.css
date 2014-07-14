@@ -1,0 +1,256 @@
+html,
+body,
+div,
+header,
+h1,
+a,
+img,
+span,
+nav,
+ul,
+li,
+aside,
+section,
+article,
+footer,
+h2 {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: url("../images/background-flowers.jpg");
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 62.5%;
+}
+body #wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  width: 960px;
+  margin: 0 auto;
+}
+body #wrapper > header,
+body #wrapper aside,
+body #wrapper section,
+body #wrapper footer {
+  background-color: rgba(254, 203, 202, 0.7);
+  border: 2px solid #000;
+}
+body #wrapper > header {
+  margin-bottom: 40px;
+  flex: 1 100%;
+  order: 0;
+}
+body #wrapper > header h1 {
+  margin-bottom: 10px;
+}
+body #wrapper > header h1 a {
+  text-decoration: none;
+  display: flex;
+  flex-float: row wrap;
+  justify-content: space-between;
+}
+body #wrapper > header h1 a img {
+  width: 200px;
+  height: 40px;
+  margin: 10px;
+}
+body #wrapper > header h1 a > span {
+  font-size: 2.5rem;
+  color: #000;
+  padding-right: 20px;
+}
+body #wrapper > header nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+body #wrapper > header nav ul {
+  padding: 10px;
+}
+body #wrapper > header nav ul li {
+  list-style-type: none;
+  display: inline-flex;
+}
+body #wrapper > header nav ul li a {
+  border: 1px solid #000;
+  background-color: #EB2A7B;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #FFE4E6;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 25px;
+  margin-right: 10px;
+}
+body aside {
+  font-size: .9rem;
+  font-weight: bold;
+}
+body .left {
+  margin-right: 10px;
+  flex: 1 0 0;
+  order: 1;
+}
+body .left ul {
+  padding: 10px;
+}
+body .left ul li {
+  list-style-type: none;
+}
+body .left ul li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+body .left ul li a img {
+  vertical-align: middle;
+}
+body .left ul li a span {
+  vertical-align: middle;
+}
+body section {
+  height: 255px;
+  flex: 3 0 0;
+  order: 2;
+}
+body section article {
+  padding: 15px;
+}
+body section article header > h1 {
+  font-size: 2rem;
+  margin-bottom: 2px;
+}
+body section article div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+body section article div img {
+  width: 125px;
+  height: 90px;
+  padding: 2px;
+}
+body .right {
+  margin-left: 10px;
+  flex: 1 0 0;
+  order: 3;
+}
+body .right ul {
+  padding: 20px 15px;
+}
+body .right ul li {
+  list-style-type: none;
+}
+body footer {
+  font-size: 1.7em;
+  margin-top: 15px;
+  flex: 1 100%;
+  order: 4;
+}
+body footer h2 {
+  text-align: center;
+  padding: 25px;
+}
+body footer h2 a {
+  color: #000;
+  text-decoration: none;
+}
+@media screen and (max-width: 960px) {
+  body #wrapper {
+    width: 100%;
+  }
+  body #wrapper section {
+    height: 100%;
+  }
+  body #wrapper section article h1 {
+    font-size: 1.8rem;
+  }
+  body #wrapper section div {
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 780px) {
+  body #wrapper {
+    flex-direction: column;
+  }
+  body #wrapper header {
+    flex: 1 auto;
+    order: 0;
+  }
+  body #wrapper header h1 {
+    font-size: 1.5rem;
+  }
+  body #wrapper header h1 a img {
+    padding-left: 20px;
+  }
+  body #wrapper header nav {
+    justify-content: center;
+  }
+  body #wrapper section {
+    margin-bottom: 10px;
+    flex: 1;
+    order: 1;
+  }
+  body #wrapper section div img {
+    width: 180px;
+    height: 140px;
+    padding: 2px;
+  }
+  body #wrapper aside,
+  body #wrapper footer {
+    font-size: .9rem;
+  }
+  body #wrapper .left {
+    margin-right: 0;
+    margin-bottom: 10px;
+    flex: 1 auto;
+    order: 2;
+  }
+  body #wrapper .right {
+    margin-left: 0;
+    margin-bottom: 10px;
+    flex: 1 auto;
+    order: 3;
+  }
+  body #wrapper footer {
+    flex: 1 auto;
+    order: 4;
+  }
+  body #wrapper footer h2 {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 640px) {
+  body #wrapper > header > h1 a {
+    flex-direction: column;
+    align-items: center;
+  }
+  body #wrapper > header nav {
+    margin-bottom: 10px;
+  }
+  body #wrapper > header nav ul {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+  }
+  body #wrapper > header nav ul li a {
+    font-size: 1rem;
+    display: flex;
+    width: 240px;
+    justify-content: center;
+  }
+  body #wrapper section article header h1 {
+    font-size: 1.5rem;
+  }
+  body #wrapper section article div {
+    width: 260px;
+  }
+  body #wrapper section article div img {
+    width: 125px;
+    height: 90px;
+  }
+  body #wrapper footer {
+    font-size: 1em;
+  }
+}

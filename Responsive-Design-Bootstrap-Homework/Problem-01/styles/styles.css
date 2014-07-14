@@ -1,0 +1,149 @@
+html,
+body,
+div,
+header,
+h1,
+a,
+ul,
+li,
+nav,
+section,
+article,
+p,
+aside,
+footer,
+h2 {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #6698FF;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 62.5%;
+}
+body #wrapper {
+  width: 720px;
+  margin: 15px auto 0;
+}
+body #wrapper > header > h1 {
+  border-bottom: 1px solid #000;
+  padding-bottom: 20px;
+}
+body #wrapper > header a {
+  text-decoration: none;
+}
+body #wrapper > header a span {
+  font-size: 1.8em;
+  color: #fff;
+}
+body #wrapper > header nav {
+  margin-top: -10px;
+}
+body #wrapper > header nav ul {
+  text-align: right;
+}
+body #wrapper > header nav ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+body #wrapper > header nav ul li a {
+  background-color: #fff;
+  border: 1px solid #000;
+  font-size: 1.4em;
+  color: #000;
+  padding: 5px 15px;
+  margin-right: 10px;
+}
+body #wrapper section {
+  display: inline-block;
+  width: 524px;
+  margin-right: 10px;
+}
+body #wrapper section article {
+  display: inline-block;
+  background-color: #E0EAFE;
+  border: 1px solid #000;
+  font-size: 1.2em;
+  padding: 20px 15px;
+  margin-bottom: 10px;
+}
+body #wrapper section article:nth-child(1) {
+  margin-top: 15px;
+}
+body #wrapper section article header h1 {
+  font-size: 1.5em;
+}
+body #wrapper section article div p {
+  text-align: justify;
+}
+body #wrapper aside {
+  display: inline-block;
+  background-color: #E0EAFE;
+  border: 1px solid #000;
+  vertical-align: top;
+  width: 160px;
+  padding: 15px 10px 0;
+  margin-top: 15px;
+}
+body #wrapper aside ul {
+  padding-left: 0;
+}
+body #wrapper aside ul li {
+  list-style-type: none;
+}
+body #wrapper aside ul li a {
+  display: inline-block;
+  font-size: 1.2em;
+  color: #000;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+body #wrapper footer {
+  background-color: #E0EAFE;
+  border: 1px solid #000;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 3px;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 780px) {
+  body #wrapper {
+    width: 100%;
+    margin: 15px auto 0;
+  }
+  body #wrapper section {
+    width: 100%;
+    margin: 0 auto;
+  }
+  body #wrapper aside {
+    width: 100%;
+    margin: 0 auto 10px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 640px) {
+  body #wrapper header h1 {
+    text-align: center;
+  }
+  body #wrapper header h1 a img {
+    display: block;
+    margin: 0 auto;
+  }
+  body #wrapper header h1 a span {
+    display: block;
+  }
+  body #wrapper header nav ul li {
+    display: block;
+  }
+  body #wrapper header nav ul li a {
+    display: block;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+  }
+  body #wrapper aside {
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+}

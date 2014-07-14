@@ -1,0 +1,393 @@
+html, body, div, header, h1, a, img, span, nav, ul, li, aside, section, article, footer, h2 {
+
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	
+	background: url("../images/background-flowers.jpg");
+	// background-repeat: repeat-x;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 62.5%;
+
+	#wrapper {
+		
+		display: flex;
+		flex-flow: row wrap;
+		width: 960px;
+		margin: 0 auto;
+
+		& > header, aside, section, footer {
+
+			background-color: rgba(254, 203, 202, 0.7);
+			border: 2px solid #000;
+		}
+
+		& > header {
+
+			margin-bottom: 40px;
+			flex:  1 100%;
+			order: 0;
+			
+			h1 {
+
+				margin-bottom: 10px;
+
+				a {
+						
+					text-decoration: none;
+					display: flex;
+					flex-float: row wrap;
+					justify-content: space-between;
+
+					img {						
+						
+						width: 200px;
+						height: 40px;
+						margin: 10px;
+					}
+					
+					& > span {
+						
+						font-size: 2.5rem;
+						color: #000;				
+						padding-right: 20px;
+					}
+				}
+			}
+
+			nav {
+
+				display: flex;
+				justify-content: flex-end;
+				margin-bottom: 20px;
+
+				ul {
+
+					padding: 10px;
+
+					li {
+
+						list-style-type: none;
+						display: inline-flex;
+
+						a {
+							
+							border: 1px solid #000;
+							background-color: #EB2A7B;
+							font-size: 1rem;
+							font-weight: bold;
+							color: #FFE4E6;
+							text-decoration: none;
+							text-align: center;
+							padding: 10px 25px;
+							margin-right: 10px;
+						}
+					}
+				}
+			}
+		}		
+	}
+
+	aside {
+
+		font-size: .9rem;
+		font-weight: bold;
+	}
+
+	.left {
+			
+		margin-right: 10px;
+		flex: 1 0 0;
+		order: 1;
+
+		ul {
+
+			padding: 10px;
+
+			li {
+
+				list-style-type: none;
+				
+				a {
+					
+					display: block;
+					color: #000;
+					text-decoration: none;
+
+					img {
+						
+						vertical-align: middle;
+					}
+					
+					span {
+
+						vertical-align: middle;
+					}
+				}
+			}
+		}		
+	}
+	
+	section {
+		
+		height: 255px;
+		flex: 3 0 0;
+		order: 2;
+
+		article {
+
+			 padding: 15px;
+
+			header {
+
+				& > h1 {
+					
+					font-size: 2rem;
+					margin-bottom: 2px;
+				}
+			}
+
+			div {
+				
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: center;
+				margin: 0 auto;
+
+				img {
+
+					width: 125px;
+					height: 90px;
+					padding: 2px;
+				}
+			}
+		}
+	}
+
+	.right {
+
+		margin-left: 10px;
+		flex: 1 0 0;
+		order: 3;
+
+		ul {
+
+			padding: 20px 15px;
+
+			li {
+
+				list-style-type: none;			
+			}
+		}		
+	}
+
+	footer {
+		
+		font-size: 1.7em;
+		margin-top: 15px;
+		flex: 1 100%;
+		order: 4;
+
+		h2 {
+
+			text-align: center;
+			padding: 25px;
+
+			a {
+			
+				color: #000;
+				text-decoration: none;
+			}
+		}		
+	}
+}
+
+@media screen and (max-width: 960px) {
+	
+	body {
+
+		#wrapper {
+
+			width: 100%;
+			
+			section {
+				
+				height: 100%;
+
+				article {
+
+					h1 {
+
+						font-size: 1.8rem;
+					}
+				}
+
+				div {
+
+					justify-content: space-between;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 780px) {
+
+	body {
+
+		#wrapper {
+
+			flex-direction: column;
+
+			header {
+				
+				flex: 1 auto;
+				order: 0;
+
+				h1 {
+
+					font-size: 1.5rem;
+
+					a {
+
+						img {
+							
+							padding-left: 20px;
+						}
+					}
+				}
+
+				nav {
+
+					justify-content: center;
+				}
+			}
+
+			section {
+				
+				margin-bottom: 10px;
+				flex: 1;
+				order: 1;
+
+				div {
+
+					img {
+
+						width: 180px;
+						height: 140px;
+						padding: 2px;
+					}
+				}
+			}
+
+			aside, footer {
+
+				font-size: .9rem;
+			}
+
+			.left {
+				
+				margin-right: 0;
+				margin-bottom: 10px;
+				flex: 1 auto;
+				order: 2;
+			}
+
+			.right {
+				
+				margin-left: 0;
+				margin-bottom: 10px;
+				flex: 1 auto;
+				order: 3;
+			}
+
+			footer {
+				
+				flex: 1 auto;
+				order: 4;
+
+				h2 {
+
+					padding: 10px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 640px) {
+	
+	body {
+
+		#wrapper {
+
+			& > header {
+
+				& > h1 {
+
+					a {
+					
+						flex-direction: column;
+						align-items: center;	
+					}
+				}
+
+				nav {
+
+					margin-bottom: 10px;
+
+					ul {
+
+						display: flex;
+						align-items: center;
+						flex-flow: column;
+
+						li {
+
+							a {
+								
+								font-size: 1rem;
+								display: flex;
+								width: 240px;
+								justify-content: center;
+							}
+						}
+					}
+				}
+			}
+
+			section {
+
+				article {
+
+					header {
+
+						h1 {
+
+							font-size: 1.5rem;
+						}
+					}
+
+					div {
+
+						
+						width: 260px;
+						
+						img {
+					
+							width: 125px;
+							height: 90px;
+						}
+					}
+				}
+			}
+
+			footer {
+
+				font-size: 1em;
+			}
+		}
+	}
+}

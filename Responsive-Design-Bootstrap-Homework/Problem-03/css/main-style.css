@@ -1,0 +1,23 @@
+body[role="body"] {
+  background-color: yellow;
+  color: blue;
+}
+nav[role="navigation"] {
+  background-color: lightgreen;
+}
+nav[role="navigation"] ul li {
+  background-color: pink;
+}
+aside[role="sidebar"] a {
+  text-align: center;
+  text-shadow: 4px 6px 4px #000;
+}
+aside[role="sidebar"] > a:hover {
+  background-color: orange;
+}
+footer {
+  background-color: green;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 10px;
+}
