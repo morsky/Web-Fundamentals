@@ -1,0 +1,156 @@
+html, body, header, h1, h2, article, section, p, hr, a, footer, img, span, ul, li {
+
+	padding: 0;
+	margin: 0;
+}
+
+body {
+
+	font-family: 'PT Sans',Tahoma,sans-serif;
+	font-size: 62.5%;
+	background-color: #EEEEEE;
+
+	& > section {
+		
+		width: 1036px;
+		margin: 0 auto;	
+
+		header {
+			
+			h1 {
+
+				font-size: 1.2rem;
+				font-weight: 500;
+				color: #333366;
+				margin-top: 40px;
+				margin-bottom: 20px;
+			}			
+		}
+
+		article {
+			
+			float: left;
+			background-color: #fff;
+			color: #5f5f5f;
+			width: 292px;
+			box-shadow: 0 4px 10px #CECECE;
+			padding: 35px 20px 10px;
+			margin-right: 20px;
+
+			&:last-of-type {
+
+				margin-right: 0;
+			}
+			
+			header {
+
+				h2 {
+					
+					font-size: .9rem;
+					color: #333366;
+					height: 32px;
+				}
+			}
+
+			section {
+
+				.right {
+
+					font-size: .9rem;
+					color: #000;
+					text-align: right;
+					height: 16px;
+					padding-bottom: 0;
+					margin-top: 10px;
+				}
+
+				p {
+					
+					font-size: .8rem;
+					height: 32px;
+					padding-top: 5px;
+					padding-bottom: 10px;
+				}
+
+				hr {
+
+					opacity: 0.1;
+				}
+
+				img {
+					
+					display: block;
+					margin: 20px auto;
+				}
+			}
+
+			footer {
+
+				p {
+
+					font-size: .7rem;
+					margin-top: 25px;
+
+					span {
+
+						font-weight: bold;
+					}
+				}
+			}					
+		}
+
+		// clearfix {
+
+		// 	 zoom: 1;
+		// }
+
+		// .clearfix:after {
+
+		// 	content: ""; 
+		// 	display: block; 
+		// 	clear: both; 
+		// 	height: 0;
+		// }
+
+		ul {
+			
+			clear: both;
+
+			li {
+				
+				float: left;
+				border: 1px solid #fff;
+				background-color: #3399CC;
+				font-size: .8rem;
+				list-style-type: none;
+				padding: 5px 10px;
+				margin-top: 50px;				
+
+				&:nth-child(1) {
+
+					background-color: #FF9C00;
+
+					&:hover {
+
+						border: 1px solid #285E8E;
+						background-color: #3276B1;
+					}
+				}
+
+				&:hover {
+					
+					border: 1px solid #357EBD;
+					background-color: #88C3EC;
+					transition: all 0.2s ease 0s;
+				}
+
+				a {
+					
+					display: block;
+					color: #fff;
+					text-decoration: none;			
+				}
+			}
+		}		
+	}
+}

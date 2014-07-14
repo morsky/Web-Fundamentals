@@ -1,0 +1,168 @@
+html,
+body,
+header,
+div,
+img,
+ul,
+li,
+a,
+p {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'PT Sans', Tahoma, sans-serif;
+  font-size: 62.5%;
+  min-width: 100%;
+}
+body header {
+  background-color: #234465;
+  font-size: 1rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+body header a {
+  display: inline-block;
+}
+body header a img {
+  margin: 20px 30px;
+}
+body header div {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}
+body header div #notification {
+  position: relative;
+  bottom: 100%;
+  left: 0;
+}
+body header div #notification p {
+  display: inline-block;
+  vertical-align: bottom;
+  padding-bottom: 3px;
+}
+body header div #dropdownMenu {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px 20px;
+  z-index: 2;
+  position: relative;
+  bottom: 100%;
+  left: 0px;
+}
+body header div #dropdownMenu img {
+  padding-bottom: 3px;
+}
+body header div #dropdownMenu ul {
+  position: absolute;
+  top: 100%;
+  left: 15px;
+}
+body header div #dropdownMenu ul li {
+  display: none;
+  background-color: #234465;
+  list-style-type: none;
+  width: 200px;
+  position: relative;
+  right: 15px;
+}
+body header div #dropdownMenu ul li a {
+  display: block;
+  border-bottom: 1px solid #4CA0DB;
+  font-size: .9rem;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+body header div #dropdownMenu ul li:hover a {
+  background-color: #FF9C00;
+}
+body header div #dropdownMenu:hover {
+  background-color: #4CA0DB;
+}
+body header div #dropdownMenu:hover li {
+  display: block;
+}
+body header div #search {
+  position: relative;
+  bottom: 100%;
+  left: 0px;
+}
+body header div #search form {
+  display: inline-block;
+}
+body header div #search form input {
+  border: 1px solid white;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 5px;
+  height: 18px;
+  width: 210px;
+  vertical-align: middle;
+}
+body header div #search form button {
+  border: 1px solid white;
+  border-left: 1px solid grey;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: -5px;
+  padding: 4px 4px;
+  height: 30px;
+  vertical-align: middle;
+}
+body header div #search form button:hover {
+  cursor: pointer;
+}
+body header nav {
+  position: absolute;
+  top: 55px;
+  right: 15px;
+}
+body header nav ul li {
+  display: inline-block;
+  border-radius: 5px;
+  vertical-align: top;
+  position: relative;
+  padding: 10px 15px;
+}
+body header nav ul li:hover {
+  background-color: #4CA0DB;
+}
+body header nav ul li:hover ul {
+  display: block;
+}
+body header nav ul li img {
+  padding-bottom: 3px;
+}
+body header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+body header nav ul li ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+}
+body header nav ul li ul li {
+  border-radius: 0;
+  background-color: #234465;
+  width: 350px;
+  padding: 0;
+  z-index: 2;
+}
+body header nav ul li ul li a {
+  display: block;
+  border-bottom: 1px solid #4CA0DB;
+  font-size: .9rem;
+  padding: 10px 20px;
+}
+body header nav ul li ul li a:hover {
+  background-color: #FF9C00;
+}
