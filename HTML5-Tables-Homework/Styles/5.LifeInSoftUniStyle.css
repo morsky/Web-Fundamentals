@@ -1,0 +1,69 @@
+html,
+body,
+section,
+table,
+thead,
+tbody,
+th,
+tr,
+td,
+p {
+  padding: 0;
+  margin: 0;
+}
+section table {
+  border: 1px solid black;
+  width: 400px;
+}
+section table td {
+  border: 1px solid black;
+  font-size: 1.3em;
+  padding: 5px;
+}
+section table .collWidth {
+  width: 100px;
+}
+section table #firstRow {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0;
+}
+section table #secondRowLeft {
+  padding-bottom: 55px;
+}
+section table #secondRowRigth {
+  padding-bottom: 55px;
+  text-align: right;
+}
+section table #thirdRowUp {
+  padding-bottom: 55px;
+  text-align: center;
+}
+section table #thirdRowBottom {
+  padding-top: 55px;
+  text-align: center;
+}
+section table #fourthRowLeftBottom {
+  padding-top: 95px;
+}
+section table #fourthRowRightBottom {
+  padding-top: 95px;
+  text-align: right;
+}
+section table #fifthRowRight {
+  font-size: 2em;
+  padding: 40px 10px 40px 0;
+  text-align: right;
+}
+section table table {
+  width: 90px;
+  height: 114px;
+}
+section table table tr td {
+  font-size: .7em;
+  font-weight: bold;
+  /*padding: 17px 0;*/
+  margin: 0;
+  text-align: center;
+}

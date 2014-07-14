@@ -1,0 +1,125 @@
+html, body, section, table, tbody, tr, td, a {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    
+    table {
+        background-color: #2D3F6D;
+        font-weight: bold;
+        color: white;
+        text-shadow: 0 1px 0 black;
+        padding: 15px 15px 10px 10px;
+        width: 100%;
+        
+        tbody {
+           
+            tr {
+                
+                td {
+                    text-align: center;
+                    padding: 5px 10px 10px 10px;                   
+                                                        
+                    input {
+                        border: 1px solid white; 
+                        border-radius: 5px 0 0 5px;
+                        padding: 5px;
+                        height: 18px;
+                        width: 240px;
+                        vertical-align: middle;
+                    }
+                    
+                    button {
+                        border: 1px solid white;
+                        border-left: 1px solid grey;
+                        border-radius: 0 5px 5px 0;
+                        margin-left: -5px;
+                        padding: 4px 4px;
+                        height: 30px;
+                        vertical-align: middle;
+                    }
+                    
+                    span {
+                        vertical-align: top;
+                    }
+                    
+                    a {
+                        border-radius: 5px; 
+                        font-weight: bold;
+                        color: white;
+                        text-decoration: none;
+                        padding: 10px;
+                        white-space: nowrap;
+
+                        table {
+                            display: none;
+                            position: absolute;
+                            top: 89px;
+                            width: 400px;
+                            padding: 0;
+                            margin: 10px 0 0 0;
+                        
+                            td {
+                                border-bottom: 1px solid #428BCA;
+                                text-align: left;
+                                width: 400px;
+                                padding: 0;
+                         
+                                a {
+                                    display: block;                                
+                                    font-weight: normal;
+                                    text-decoration: none;
+                                    padding: 10px;
+                                    margin: -2px;
+                                
+                                    &:hover {
+                                        background-color: #FF9C00;
+                                        border-radius: 0;
+                                    }
+                                }                        
+                            }
+                        }
+                        
+                        &:hover {
+                            background-color: #4CA0DB;
+                            border-radius: 5px;
+
+                            table {
+                                display:block;
+                            }
+                        }
+                    }
+                    
+                    img {
+                        vertical-align: middle;
+                    }
+                    
+                    #userMenu { 
+                        top: 45px;
+                        width: 218px;                       
+
+                        td {
+                            width: 218px;
+                        }
+                    }
+                    
+                    #logo {
+                        &:hover {
+                            background-color: #2D3F6D;
+                            opacity: 0.7;
+                        }
+                    }
+                }
+                
+                #notification {
+                    text-align: right;
+                }
+                
+                #search {
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+}

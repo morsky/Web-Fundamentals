@@ -1,0 +1,103 @@
+html,
+body,
+section,
+table,
+tbody,
+tr,
+td,
+a {
+  margin: 0;
+  padding: 0;
+}
+section table {
+  background-color: #2D3F6D;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 1px 0 black;
+  padding: 15px 15px 10px 10px;
+  width: 100%;
+}
+section table tbody tr td {
+  text-align: center;
+  padding: 5px 10px 10px 10px;
+}
+section table tbody tr td input {
+  border: 1px solid white;
+  border-radius: 5px 0 0 5px;
+  padding: 5px;
+  height: 18px;
+  width: 240px;
+  vertical-align: middle;
+}
+section table tbody tr td button {
+  border: 1px solid white;
+  border-left: 1px solid grey;
+  border-radius: 0 5px 5px 0;
+  margin-left: -5px;
+  padding: 4px 4px;
+  height: 30px;
+  vertical-align: middle;
+}
+section table tbody tr td span {
+  vertical-align: top;
+}
+section table tbody tr td a {
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  white-space: nowrap;
+}
+section table tbody tr td a table {
+  display: none;
+  position: absolute;
+  top: 89px;
+  width: 400px;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+section table tbody tr td a table td {
+  border-bottom: 1px solid #428BCA;
+  text-align: left;
+  width: 400px;
+  padding: 0;
+}
+section table tbody tr td a table td a {
+  display: block;
+  font-weight: normal;
+  text-decoration: none;
+  padding: 10px;
+  margin: -2px;
+}
+section table tbody tr td a table td a:hover {
+  background-color: #FF9C00;
+  border-radius: 0;
+}
+section table tbody tr td a:hover {
+  background-color: #4CA0DB;
+  border-radius: 5px;
+}
+section table tbody tr td a:hover table {
+  display: block;
+}
+section table tbody tr td img {
+  vertical-align: middle;
+}
+section table tbody tr td #userMenu {
+  top: 45px;
+  width: 218px;
+}
+section table tbody tr td #userMenu td {
+  width: 218px;
+}
+section table tbody tr td #logo:hover {
+  background-color: #2D3F6D;
+  opacity: 0.7;
+}
+section table tbody tr #notification {
+  text-align: right;
+}
+section table tbody tr #search {
+  white-space: nowrap;
+}

@@ -1,0 +1,29 @@
+html,
+body,
+section,
+table,
+thead,
+tbody,
+tfoot,
+th,
+tr,
+td,
+p,
+h1 {
+  padding: 0;
+  margin: 0;
+}
+section table {
+  font-family: Arial;
+  border: 1px solid black;
+  width: 400px;
+  margin: 10px auto;
+}
+section table td,
+section table th {
+  border: 1px solid black;
+  padding: 5px;
+}
+section table tfoot tr td {
+  text-align: right;
+}

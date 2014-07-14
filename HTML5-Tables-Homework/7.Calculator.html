@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="Styles/7.CalculatorStyle.css">	
+</head>
+<body>
+	<section>
+		<table>
+			<tbody>
+				<tr>
+					<td colspan="4">
+						<form>
+							<input type="text" id="display" placeholder="0" autofocus onkeypress="searchKeyPress(event)" />
+						</form>							
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button onClick="calculate(1)">1</button>
+					</td>
+					<td>
+						<button onClick="calculate(2)">2</button>
+					</td>
+					<td>
+						<button onClick="calculate(3)">3</button>
+					</td>
+					<td>
+						<button onClick="calculate('+')">+</button>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button onClick="calculate(4)">4</button>
+					</td>
+					<td>
+						<button onClick="calculate(5)">5</button>
+					</td>
+					<td>
+						<button onClick="calculate(6)">6</button>
+					</td>
+					<td>
+						<button onClick="calculate('-')">-</button>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button onClick="calculate(7)">7</button>
+					</td>
+					<td>
+						<button onClick="calculate(8)">8</button>
+					</td>
+					<td>
+						<button onClick="calculate(9)">9</button>
+					</td>
+					<td>
+						<button onClick="calculate('*')">*</button>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button onClick="calculate('clear')">C</button>
+					</td>
+					<td>
+						<button onClick="calculate(0)">0</button>
+					</td>
+					<td>
+						<button onClick="calculate('=')">=</button>
+					</td>
+					<td>
+						<button onClick="calculate('/')">/</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		</form>
+		<script type="text/javascript" src="Script/7.CalculatorScript.js"></script>
+	</section>
+	<script type="text/javascript" src="Script/7.CalculatorScript.js"></script>
+</body>
+</html>
