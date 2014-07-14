@@ -1,0 +1,194 @@
+html, body, header, aside, nav, ul, li, a, section, article, div, footer, span {
+
+	padding: 0;
+	margin: 0;
+}
+
+body {
+
+	background: url(../images/colorful_dots_on_black.jpg);
+	font-family: Calibri, Tahoma, Arial, sans-serif;
+	font-size: 1em;
+
+	& > header {
+	
+		background: #ff0000; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjMzJSIgc3RvcC1jb2xvcj0iI2ZmMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjMzJSIgc3RvcC1jb2xvcj0iIzAwODAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjY2JSIgc3RvcC1jb2xvcj0iIzAwODAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjY2JSIgc3RvcC1jb2xvcj0iIzAwMDBmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -webkit-linear-gradient(left, #ff0000 0%, #ff0000 33%, #008000 33%, #008000 66%, #0000ff 66%, #0000ff 100%);
+	background: -o-linear-gradient(left, #ff0000 0%, #ff0000 33%, #008000 33%, #008000 66%, #0000ff 66%, #0000ff 100%);
+	background: linear-gradient(to right, #ff0000 0%, #ff0000 33%, #008000 33%, #008000 66%, #0000ff 66%, #0000ff 100%); /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */ /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#0000ff',GradientType=1 ); /* IE6-8 */
+		
+		font-size: 2.5rem;
+		font-weight: bold;
+		color: #FFFF00;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+
+	aside {
+		
+		display: inline-block;
+		border-radius: 20px;
+		background: rgba(255, 255, 255, 0.8);
+		width: 15%;
+		padding: 15px;
+		margin: 20px 20px 0 10px;
+		vertical-align: top;
+
+		nav {
+
+			header {
+
+				font-size: 1.2rem;
+				font-weight: bold;
+				text-decoration: underline;
+				margin-bottom: 5px;
+			}
+
+			ul {
+
+				li {			
+					
+					border-radius: 10px;	
+					background: url("../images/mark.png") no-repeat 5px 8px;
+					background-size: 15px;
+					list-style-type: none;
+					line-height: 20px;
+					padding: 5px 0 5px 25px;
+
+					a {
+						
+						font-size: .9rem;
+						font-weight: bold;
+						color: #000;
+						text-decoration: none;
+					}
+
+					&:nth-child(1):hover {
+						
+						background-color: #FF0000;
+					}
+
+					&:nth-child(2):hover {
+						
+						background-color: #FFA500;
+					}
+
+					&:nth-child(3):hover {
+						
+						background-color: #FFFF00;
+					}
+
+					&:nth-child(4):hover {
+						
+						background-color: #008000;
+					}
+
+					&:nth-child(5):hover {
+						
+						background-color: #0000FF;
+					}
+
+					&:nth-child(6):hover {
+						
+						background-color: #800080;
+					}
+				}
+			}
+		}
+	}
+
+	section {
+
+		display: inline-block;		
+		width: 75%;
+
+		article {
+
+			border-radius: 20px;
+			background: rgba(255, 255, 255, 0.8);
+			padding: 15px;
+			margin: 20px 0 10px 0;
+
+			header {
+				
+				border-radius: 5px;
+				font-size: 1.4rem;
+				padding: 5px;				
+			}
+
+			div {
+
+				&:first-letter {
+
+					font-size: 3rem;
+				}
+
+				&:first-line {
+
+					font-style: italic;
+				}
+			}
+
+			span {
+
+				&[lang="la"] {
+
+					color: #1D2195;
+
+					&:before, &:after {
+
+						content: "\"";
+					}
+				}
+			}
+
+
+			footer {
+
+				a {
+
+					color: #7F7F7F;
+				}
+			}
+		}
+	}
+}
+
+#webColors {
+					
+	background-color: #FF0000;
+	color: #fff;
+}
+
+#webSafeColors {
+	
+	background-color: #FFA500;
+	color: #000;
+}
+
+#RGB {
+	
+	background-color: #FFFF00;
+	color: #000;
+}
+
+#RGBA {
+
+	background-color: #008000;
+	color: #fff;
+}
+
+#\#HSLHSV {
+	
+	background-color: #0000FF;	
+	color: #fff;
+}
+
+#\#lorem {
+	
+	background-color: #800080;
+	color: #fff;
+}

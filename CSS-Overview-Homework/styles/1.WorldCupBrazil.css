@@ -1,0 +1,146 @@
+html,
+body,
+section,
+table,
+thead,
+tbody,
+tr,
+th,
+td,
+form,
+input {
+  padding: 0;
+  margin: 0;
+}
+section {
+  font-family: Tahoma, Arial, sans-serif;
+  margin: 20px;
+}
+section table {
+  border-spacing: 0;
+  background: #00923E;
+  padding: 20px;
+}
+section table thead tr th {
+  border: 1px solid #000;
+  border-right: none;
+  background-color: #F8C711;
+  font-size: 1.4em;
+  padding: 8px;
+}
+section table thead tr th:nth-child(1) {
+  text-align: right;
+  width: 130px;
+}
+section table thead tr th:nth-child(3) {
+  text-align: left;
+  width: 130px;
+}
+section table thead tr .topLeftCorner {
+  border-top-left-radius: 10px;
+}
+section table thead tr .topRightCorner {
+  border-top-right-radius: 10px;
+  border-right: 1px solid #000;
+}
+section table tbody tr:nth-child(2n) {
+  background-color: #C8C8C8;
+}
+section table tbody tr:nth-child(2n + 1) {
+  background-color: #fff;
+}
+section table tbody tr td {
+  border: 1px solid #000;
+  border-top: none;
+  border-right: none;
+  font-size: .9em;
+  text-align: center;
+  padding: 5px 5px;
+}
+section table tbody tr td:last-child {
+  border-right: 1px solid #000;
+}
+section table tbody tr td input {
+  border-radius: 40px;
+  background: #008000;
+  color: #fff;
+  font-size: .7em;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+section table tbody tr td input:disabled {
+  background: #FF0000;
+}
+section table tbody tr td select {
+  background-color: #FFFFFF;
+  color: #0D850A;
+  padding: 5px 0;
+}
+section table tbody tr td select:disabled {
+  background-color: #DCDCDC;
+  color: #FF0407;
+}
+section table tbody tr td:nth-child(5),
+section table tbody tr td:nth-child(7) {
+  width: 100px;
+}
+section table tbody tr .left {
+  text-align: left;
+}
+section table tbody tr .flagLeft {
+  padding-left: 40px;
+}
+section table tbody tr .right {
+  text-align: right;
+}
+section table tbody tr .flagRight {
+  padding-right: 40px;
+}
+section table tbody tr .bottomLeftCorner {
+  border-bottom-left-radius: 10px;
+}
+section table tbody tr .bottomRightCorner {
+  border-bottom-right-radius: 10px;
+  border-right: 1px solid #000;
+}
+section table tbody tr .br {
+  background: url("../images/br.png") no-repeat 110px 17px;
+  background-size: 20px 15px;
+}
+section table tbody tr .es {
+  background: url("../images/es.png") no-repeat 110px 17px;
+  background-size: 20px 15px;
+}
+section table tbody tr .it {
+  background: url("../images/it.png") no-repeat 110px 17px;
+  background-size: 20px 15px;
+}
+section table tbody tr .ar {
+  background: url("../images/ar.png") no-repeat 110px 17px;
+  background-size: 20px 15px;
+}
+section table tbody tr .de {
+  background: url("../images/de.png") no-repeat 110px 17px;
+  background-size: 20px 15px;
+}
+section table tbody tr .mx {
+  background: url("../images/mx.png") no-repeat 10px 17px;
+  background-size: 20px 15px;
+}
+section table tbody tr .nl {
+  background: url("../images/nl.png") no-repeat 10px 17px;
+  background-size: 20px 15px;
+}
+section table tbody tr .un {
+  background: url("../images/un.png") no-repeat 10px 17px;
+  background-size: 20px 15px;
+}
+section table tbody tr .ba {
+  background: url("../images/ba.png") no-repeat 10px 17px;
+  background-size: 20px 15px;
+}
+section table tbody tr .pt {
+  background: url("../images/pt.png") no-repeat 10px 17px;
+  background-size: 20px 15px;
+}

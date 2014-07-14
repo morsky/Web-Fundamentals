@@ -1,0 +1,107 @@
+html, body, section, div {
+
+	padding: 0;
+	margin: 0;
+}
+
+section {
+
+	margin: 20px;
+
+	#face {
+
+		border: 2px solid #000;
+		border-radius: 300px;
+		background-color: #FFFF00;
+		width: 500px;
+		height: 500px;
+	}
+
+	#leftEye {
+
+		display: inline-block;
+		border: 2px solid #000;
+		border-radius: 50px;
+		background-color: #fff;
+		width: 100px;
+		height: 100px;
+		position: relative;
+		top: 75px;
+		left: 100px;
+	}
+
+	#leftEyePupil {
+
+		border-radius: 15px;
+		background-color: #000;
+		width: 30px;
+		height: 30px;
+		position: relative;
+		top: 55px;
+		left: 55px;
+	}
+
+	#rightEye {
+
+		#leftEye;
+
+		left: 190px;
+	}
+
+	#rightEyePupil {
+	
+		border-radius: 15px;
+		background-color: #000;
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		right: 70px;
+		bottom: 70px;
+	}
+
+	#nose {
+
+		border: 2px solid #000;
+		border-radius: 40px;
+		background-color: #FF0000;
+		width: 80px;
+		height: 80px;
+		position: absolute;
+		top: 230px;
+		left: 230px;
+	}
+
+	#mouth {
+
+		border: 2px solid #000;
+		border-radius: 50px;
+		background-color: #fff;
+		width: 250px;
+		height: 100px;
+		position: relative;
+		top: 205px;
+		left: 125px;
+	}
+
+	#leftTooth {
+
+		display: inline-block;
+		border: 2px solid #000;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		// border-radius: 10px;
+		background-color: #fff;
+		width: 50px;
+		height: 50px;
+		position: relative;
+		top: -2px;
+		left: 75px;
+	}
+
+	#rightTooth {
+
+		#leftTooth;
+
+		left: 70px;
+	}
+}
