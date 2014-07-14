@@ -1,0 +1,55 @@
+html,
+body,
+section,
+p {
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: AnimatedFont;
+  src: url("../resources/Animated.ttf");
+}
+section {
+  background: #f9f8e9;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmOWY4ZTkiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI5JSIgc3RvcC1jb2xvcj0iI2Y5ZjhlOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjE1JSIgc3RvcC1jb2xvcj0iI2Y5ZjdiOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjIxJSIgc3RvcC1jb2xvcj0iI2Y5ZjhlOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjM3JSIgc3RvcC1jb2xvcj0iIzdkYjllOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjY1JSIgc3RvcC1jb2xvcj0iIzIwN2NjYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyMDdjY2EiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvcmFkaWFsR3JhZGllbnQ+CiAgPHJlY3QgeD0iLTUwIiB5PSItNTAiIHdpZHRoPSIxMDEiIGhlaWdodD0iMTAxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+  background: -moz-radial-gradient(center, ellipse cover, #f9f8e9 0%, #f9f8e9 9%, #f9f7b8 15%, #f9f8e9 21%, #7db9e8 37%, #207cca 65%, #207cca 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #f9f8e9), color-stop(9%, #f9f8e9), color-stop(15%, #f9f7b8), color-stop(21%, #f9f8e9), color-stop(37%, #7db9e8), color-stop(65%, #207cca), color-stop(100%, #207cca));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #f9f8e9 0%, #f9f8e9 9%, #f9f7b8 15%, #f9f8e9 21%, #7db9e8 37%, #207cca 65%, #207cca 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover, #f9f8e9 0%, #f9f8e9 9%, #f9f7b8 15%, #f9f8e9 21%, #7db9e8 37%, #207cca 65%, #207cca 100%);
+  /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover, #f9f8e9 0%, #f9f8e9 9%, #f9f7b8 15%, #f9f8e9 21%, #7db9e8 37%, #207cca 65%, #207cca 100%);
+  /* IE10+ */
+  background: radial-gradient(ellipse at center, #f9f8e9 0%, #f9f8e9 9%, #f9f7b8 15%, #f9f8e9 21%, #7db9e8 37%, #207cca 65%, #207cca 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f8e9', endColorstr='#207cca', GradientType=1);
+  /* IE6-8 fallback on horizontal gradient */
+  background-repeat: no-repeat;
+  background-position: -300px -200px;
+  background-color: #207CCA;
+  width: 900px;
+  height: 600px;
+  margin: 20px auto;
+}
+section p {
+  background-image: url("../resources/VladoKHula.png"), url("../resources/AlexHula.png"), url("../resources/NakovHula.png"), url("../resources/TediHula.png"), url("../resources/PetiaHula.png"), url("../resources/VladoGHula.png"), url("../resources/HawaiiBackground.png");
+  background-position: 670px 230px,
+								490px 200px,
+								410px 160px,
+								260px 360px,
+								180px 190px,
+								40px 220px,
+								0 0;
+  background-repeat: no-repeat;
+  font-family: AnimatedFont, Tahoma, sans-serif;
+  font-size: 3.3em;
+  color: #FDBC21;
+  width: 900px;
+  height: 600px;
+  padding-top: 10px;
+  padding-left: 460px;
+}
