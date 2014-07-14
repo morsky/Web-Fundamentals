@@ -1,0 +1,45 @@
+html,
+body,
+div,
+section,
+header,
+h1,
+iframe,
+article,
+a {
+  padding: 0;
+  margin: 0;
+}
+section {
+  background-color: #000;
+  border-radius: 15px;
+  font-family: Tahoma, sans-serif;
+  width: 826px;
+  position: relative;
+  margin: 10px;
+}
+section header h1 {
+  color: #ffcc00;
+  font-size: 3em;
+  text-align: center;
+  padding-top: 10px;
+}
+section iframe {
+  border: 1px solid #ffcc00;
+  margin: 15px 40px 40px 40px;
+  overflow: hidden;
+}
+section article {
+  position: absolute;
+  top: 84px;
+  left: 380px;
+  margin-left: 0;
+  margin-right: 40px;
+}
+section article a {
+  color: #fff;
+  font-size: 2.3em;
+  font-style: italic;
+  text-decoration: none;
+  display: block;
+}

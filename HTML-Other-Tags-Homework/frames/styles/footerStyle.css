@@ -1,0 +1,64 @@
+html,
+body,
+div,
+section,
+img,
+p,
+h1,
+h2,
+ul,
+li,
+a {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Tahoma, sans-serif;
+}
+body .top {
+  background-color: #F7F7F7;
+  height: 40px;
+  line-height: 40px;
+}
+body .top img {
+  margin-left: 30px;
+}
+body .top p {
+  display: inline;
+  color: #ABAAAF;
+  font-size: .9em;
+  font-style: italic;
+}
+body .main {
+  background-color: #000;
+  color: #fff;
+  height: 145px;
+}
+body .main section {
+  display: inline-block;
+  width: 170px;
+  height: 120px;
+  margin: 20px 30px 5px 30px;
+  vertical-align: top;
+}
+body .main section h1 {
+  font-size: 1.3em;
+}
+body .main section header h2 {
+  font-size: .8em;
+}
+body .main section ul li {
+  list-style-type: none;
+  padding-left: 5px;
+}
+body .main section ul li a {
+  font-size: .9em;
+  color: #fff;
+  text-decoration: none;
+}
+body .main section p {
+  font-size: .9em;
+}
+body .main section p span {
+  color: #868686;
+}

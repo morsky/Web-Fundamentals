@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript Worship</title>
+	<link rel="stylesheet" type="text/css" href="styles/5.JavaScriptWorship.css">
+	<script type="application/javascript">
+    function draw() {
+      var canvas = document.getElementById("canvas");
+      
+      if (canvas.getContext) {
+        var ctx = canvas.getContext("2d");
+
+        ctx.fillStyle = "rgb(200,0,0)";
+        ctx.fillRect (0, 0, 4, 4);
+        ctx.fillRect (4, 0, 4, 4);
+        ctx.fillRect (0, 4, 4, 4);
+        ctx.fillRect (320, 0, 4, 4);
+        ctx.fillRect (0, 320, 4, 4);
+        ctx.fillRect (320, 320, 4, 4);
+
+        for (var i = 0; i < 80; i++) {
+
+        	if (i % 2 == 1) {
+        		ctx.fillRect ((i * 4), 0, 4, 4);
+        		ctx.fillRect ((i * 4), 320, 4, 4); 
+        	};        	
+        };
+
+        for (var i = 0; i < 80; i++) {
+
+        	if (i % 2 == 1) {        		
+        		ctx.fillRect (0, (i * 4), 4, 4);
+        		ctx.fillRect (320, (i * 4), 4, 4);
+        	};        	
+        };
+
+        ctx.fillStyle = "#F1DA4E";
+        ctx.fillRect (54, 83, 134, 134);   
+
+      }
+    }
+  </script>
+</head>
+<body onload="draw();">
+	<canvas id="canvas" width="400" height="400"></canvas>
+	<!-- <section>
+		<p>I love JavaScript</p>
+		<canvas></canvas>
+	</section> -->
+</body>
+</html>

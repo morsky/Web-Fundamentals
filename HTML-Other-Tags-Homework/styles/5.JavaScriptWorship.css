@@ -1,0 +1,8 @@
+html,
+body,
+section,
+p,
+canvas {
+  padding: 0;
+  margin: 0;
+}
